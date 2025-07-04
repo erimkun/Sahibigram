@@ -1,0 +1,52 @@
+# 🚀 Sahibigram - sahibinden.com Scraper Dependencies
+# Based on working solution from AdditionalReport.md + production enhancements
+
+# Core scraping dependencies
+playwright>=1.40.0
+requests>=2.31.0
+urllib3>=1.26.0
+
+# Data processing and validation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Configuration and utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# Database support
+sqlite3  # Built-in Python module
+sqlalchemy>=2.0.0  # For future database expansion
+
+# Export formats
+openpyxl>=3.1.0  # Excel support
+xlsxwriter>=3.1.0  # Excel writing
+
+# Logging and monitoring
+loguru>=0.7.0  # Enhanced logging
+tqdm>=4.66.0  # Progress bars
+
+# Development and testing (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+
+# Type hints and validation
+typing-extensions>=4.8.0
+pydantic>=2.5.0  # For data validation
+
+# Async support (future enhancement)
+asyncio  # Built-in Python module
+aiohttp>=3.9.0
+
+# Performance optimization
+lxml>=4.9.0  # Fast XML/HTML parsing
+beautifulsoup4>=4.12.0  # HTML parsing fallback
+
+# System monitoring
+psutil>=5.9.0  # System resource monitoring
+
+# Security
+cryptography>=41.0.0  # For secure data handling 
