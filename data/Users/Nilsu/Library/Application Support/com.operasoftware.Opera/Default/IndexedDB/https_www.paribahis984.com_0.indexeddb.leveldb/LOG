@@ -1,0 +1,7 @@
+2025/02/08-02:30:25.565 8703 Reusing MANIFEST /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_www.paribahis984.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/08-02:30:25.566 8703 Recovering log #8
+2025/02/08-02:30:25.566 8703 Reusing old log /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_www.paribahis984.com_0.indexeddb.leveldb/000008.log 
+2025/02/08-02:30:25.613 8903 Level-0 table #14: started
+2025/02/08-02:30:25.615 8903 Level-0 table #14: 651 bytes OK
+2025/02/08-02:30:25.624 8903 Delete type=0 #8
+2025/02/08-02:30:25.624 a903 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

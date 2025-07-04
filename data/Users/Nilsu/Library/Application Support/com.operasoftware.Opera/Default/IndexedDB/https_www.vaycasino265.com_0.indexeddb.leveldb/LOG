@@ -1,0 +1,6 @@
+2024/11/16-00:54:38.315 a803 Creating DB /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_www.vaycasino265.com_0.indexeddb.leveldb since it was missing.
+2024/11/16-00:54:38.323 a803 Reusing MANIFEST /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_www.vaycasino265.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/16-00:54:40.865 8703 Level-0 table #5: started
+2024/11/16-00:54:40.869 8703 Level-0 table #5: 886 bytes OK
+2024/11/16-00:54:40.874 8703 Delete type=0 #3
+2024/11/16-00:54:40.875 8703 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,7 @@
+2024/11/14-18:25:12.641 8603 Reusing MANIFEST /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_www.primevideo.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/14-18:25:12.641 8603 Recovering log #3
+2024/11/14-18:25:12.644 8603 Reusing old log /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_www.primevideo.com_0.indexeddb.leveldb/000003.log 
+2024/11/14-20:54:58.967 8603 Level-0 table #5: started
+2024/11/14-20:54:58.977 8603 Level-0 table #5: 146166 bytes OK
+2024/11/14-20:54:58.983 8603 Delete type=0 #3
+2024/11/14-20:54:58.984 8603 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -8,13 +8,15 @@ import os
 import sys
 import logging
 from datetime import datetime
+from pathlib import Path
 
 # Add src to path for imports
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+ROOT_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT_DIR / "src"))
 
-from scraper.sahibinden_scraper import SahibindenScraper
-from scraper.utils import URLBuilder, DataProcessor
-from scraper.config import get_config
+from scraper.sahibinden_scraper import SahibindenScraper  # type: ignore
+from scraper.utils import URLBuilder, DataProcessor  # type: ignore
+from scraper.config import get_config  # type: ignore
 
 
 def setup_logging():

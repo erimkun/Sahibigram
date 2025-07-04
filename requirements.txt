@@ -3,6 +3,7 @@
 
 # Core scraping dependencies
 playwright>=1.40.0
+playwright-stealth>=2.0.0
 requests>=2.31.0
 urllib3>=1.26.0
 
@@ -15,7 +16,7 @@ python-dotenv>=1.0.0
 pyyaml>=6.0.1
 
 # Database support
-sqlite3  # Built-in Python module
+# sqlite3 is part of the Python standard library and does **not** need to be installed via pip.
 sqlalchemy>=2.0.0  # For future database expansion
 
 # Export formats
@@ -38,7 +39,7 @@ typing-extensions>=4.8.0
 pydantic>=2.5.0  # For data validation
 
 # Async support (future enhancement)
-asyncio  # Built-in Python module
+# asyncio is part of the Python standard library (>=3.4) – no separate pip package.
 aiohttp>=3.9.0
 
 # Performance optimization

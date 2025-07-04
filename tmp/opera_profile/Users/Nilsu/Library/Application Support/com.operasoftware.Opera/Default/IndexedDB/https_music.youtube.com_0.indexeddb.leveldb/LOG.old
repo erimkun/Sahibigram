@@ -1,0 +1,6 @@
+2024/10/26-01:31:00.776 a203 Creating DB /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb since it was missing.
+2024/10/26-01:31:00.786 a203 Reusing MANIFEST /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/26-02:10:48.881 f703 Level-0 table #5: started
+2024/10/26-02:10:48.888 f703 Level-0 table #5: 152109 bytes OK
+2024/10/26-02:10:48.898 f703 Delete type=0 #3
+2024/10/26-02:10:48.902 f703 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

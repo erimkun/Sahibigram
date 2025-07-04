@@ -1,0 +1,15 @@
+2025/04/11-20:33:22.777 8303 Reusing MANIFEST /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_genius.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/11-20:33:22.777 8303 Recovering log #4
+2025/04/11-20:33:22.778 8303 Reusing old log /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_genius.com_0.indexeddb.leveldb/000004.log 
+2025/04/11-23:01:00.910 a603 Level-0 table #8: started
+2025/04/11-23:01:00.918 a603 Level-0 table #8: 423 bytes OK
+2025/04/11-23:01:00.937 a603 Delete type=0 #4
+2025/04/11-23:01:00.940 a603 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/04/11-23:01:00.940 a603 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x03\x00\x00\x007T\xfe\xd9A' @ 63 : 1
+2025/04/11-23:01:00.940 a603 Compacting 1@1 + 1@2 files
+2025/04/11-23:01:00.945 a603 Generated table #9@1: 23 keys, 607 bytes
+2025/04/11-23:01:00.945 a603 Compacted 1@1 + 1@2 files => 607 bytes
+2025/04/11-23:01:00.959 a603 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/11-23:01:00.959 a603 Delete type=2 #5
+2025/04/11-23:01:00.959 a603 Delete type=2 #8
+2025/04/11-23:01:00.961 a603 Manual compaction at level-1 from '\x00\x01\x01\x02\x03\x00\x00\x007T\xfe\xd9A' @ 63 : 1 .. (end); will stop at (end)

@@ -1,0 +1,18 @@
+2025/07/04-21:01:36.997 3f03 Reusing MANIFEST /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/Session Storage/MANIFEST-000001
+2025/07/04-21:01:36.998 3f03 Recovering log #344
+2025/07/04-21:01:36.998 3f03 Reusing old log /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/Session Storage/000344.log 
+2025/07/04-21:17:18.690 2e03 Level-0 table #348: started
+2025/07/04-21:17:18.693 2e03 Level-0 table #348: 24429 bytes OK
+2025/07/04-21:17:18.695 2e03 Delete type=0 #344
+2025/07/04-21:17:18.698 3f03 Compacting 4@0 + 1@1 files
+2025/07/04-21:17:18.710 3f03 Generated table #349@0: 9294 keys, 166889 bytes
+2025/07/04-21:17:18.710 3f03 Compacted 4@0 + 1@1 files => 166889 bytes
+2025/07/04-21:17:18.711 3f03 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/04-21:17:18.712 3f03 Delete type=2 #338
+2025/07/04-21:17:18.712 3f03 Delete type=2 #348
+2025/07/04-21:17:18.712 3f03 Delete type=2 #342
+2025/07/04-21:17:18.712 3f03 Delete type=2 #340
+2025/07/04-21:17:18.712 3f03 Delete type=2 #345
+2025/07/04-21:17:52.442 2e03 Level-0 table #351: started
+2025/07/04-21:17:52.446 2e03 Level-0 table #351: 10556 bytes OK
+2025/07/04-21:17:52.449 2e03 Delete type=0 #347

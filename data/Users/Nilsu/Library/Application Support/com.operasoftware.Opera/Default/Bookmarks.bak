@@ -1,0 +1,235 @@
+{
+   "checksum": "b3ef962c6c2b6e383eb93f6b34b3c715",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13371143139425448",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Yer İşaretleri Çubuğu",
+         "type": "folder"
+      },
+      "custom_root": {
+         "pinboard": {
+            "children": [  ],
+            "date_added": "13371143139425576",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-a000-000000000907",
+            "id": "7",
+            "name": "Pinboard",
+            "type": "folder"
+         },
+         "speedDial": {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13371143146074233",
+                  "date_last_used": "0",
+                  "guid": "6067c7c4-ff3f-483b-9ead-b4a0fa8046a2",
+                  "id": "11",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/e1db847af0a87787f307ee6942ed7d643488d419.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/fa2f32da8b0da3ea6336486d7a3f63bc7dabcedd.png",
+                     "imageDataType": "2",
+                     "imageID": "F47B001935FED08C881C38D86020E31023E4FA38128471C5E20485C980C9616C",
+                     "imageType": "2",
+                     "impression_url": "",
+                     "nav_timestamp": "1.724790531213899e+12",
+                     "nav_timestamp_reset_version": "1",
+                     "partner_id": "V8sObsGTePHXdLNuB1SO2oaTyCOVuvI0dSMW+g5gVgY=",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/fa2f32da8b0da3ea6336486d7a3f63bc7dabcedd.png",
+                     "partner_url": "https://www.booking.com/?aid=348858&label=pc-tr-booking-booking-sd-orsv",
+                     "ping_url": "https://speeddials.opera.com/api/v1/clicks/VjhzT2JzR1RlUEhYZExOdUIxU08yb2FUeUNPVnV2STBkU01XK2c1Z1ZnWT0=",
+                     "replaceability": "0",
+                     "revision": "20250523",
+                     "server_position": "1"
+                  },
+                  "name": "Booking.com",
+                  "type": "url",
+                  "url": "https://www.booking.com/"
+               }, {
+                  "date_added": "13371143146074894",
+                  "date_last_used": "0",
+                  "guid": "61af76ea-212d-4ad3-aa10-c8a46f93e880",
+                  "id": "13",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/609fa7dfdac6e13e43d220628faf73eb0bc67ff2.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/5d88de7e9761030060a46940efdcbadb6a5ab877.png",
+                     "imageDataType": "2",
+                     "imageID": "86B34D3958AA935A8AD58357B98C00E9B6AB6CD567224284454708661D455732",
+                     "imageType": "2",
+                     "impression_url": "",
+                     "nav_timestamp": "1.724790531213899e+12",
+                     "nav_timestamp_reset_version": "1",
+                     "partner_id": "10pD87yj4fuwiqalUS/3YPFiGxUrfr/NIgg6q3yPOfo=",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/5d88de7e9761030060a46940efdcbadb6a5ab877.png",
+                     "partner_url": "https://s.click.aliexpress.com/e/_olwfvWl?dp=pc-tr-aliexpress-aliexpress-sd",
+                     "ping_url": "https://speeddials.opera.com/api/v1/clicks/MTBwRDg3eWo0ZnV3aXFhbFVTLzNZUEZpR3hVcmZyL05JZ2c2cTN5UE9mbz0=",
+                     "replaceability": "0",
+                     "revision": "20240319",
+                     "server_position": "3"
+                  },
+                  "name": "AliExpress",
+                  "type": "url",
+                  "url": "http://aliexpress.com/"
+               }, {
+                  "date_added": "13371143146075381",
+                  "date_last_used": "0",
+                  "guid": "261f3824-8069-4e4b-aa30-9cece2df133b",
+                  "id": "15",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/4fc013fe3d113ea3f4273d25478aa904261b386b.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/d295360cf634f318628a631da7b7a44fea22479a.png",
+                     "imageDataType": "2",
+                     "imageID": "1DB485A8213DC6E747062406F165F62993ECD6D3113B533543C73EF7EAF0ABD4",
+                     "imageType": "2",
+                     "impression_url": "",
+                     "nav_timestamp": "1743699844103",
+                     "nav_timestamp_reset_version": "1",
+                     "partner_id": "WjdSIzuPtgyQtWxWRFroc+IiBKoSvBdKG8and6/CyEs=",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/d295360cf634f318628a631da7b7a44fea22479a.png",
+                     "partner_url": "https://track.adlinkify.com/aff_c?offer_id=20&aff_id=1010&aff_sub=sd_tr",
+                     "ping_url": "https://speeddials.opera.com/api/v1/clicks/V2pkU0l6dVB0Z3lRdFd4V1JGcm9jK0lpQktvU3ZCZEtHOGFuZDYvQ3lFcz0=",
+                     "replaceability": "0",
+                     "revision": "20220804",
+                     "server_position": "5"
+                  },
+                  "name": "Media Markt",
+                  "type": "url",
+                  "url": "https://www.mediamarkt.com.tr/"
+               }, {
+                  "date_added": "13371143146076799",
+                  "date_last_used": "0",
+                  "guid": "db2420a1-eb18-4ecc-a02c-150ab63fa42e",
+                  "id": "18",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/d29593eefae24a3805b482bd5b4b2f525d00364f.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/beee0a2cb9362aab3dd5e4a32eb3af15955428d1.png",
+                     "imageDataType": "2",
+                     "imageID": "2497C4A17D2D750A198E1022F8AC428696B1DF80A0F970490A02D7DD6513F1FD",
+                     "imageType": "2",
+                     "impression_url": "",
+                     "nav_timestamp": "1.724790531213899e+12",
+                     "nav_timestamp_reset_version": "1",
+                     "partner_id": "GZHPjWLME5tAidh4focPvvzUjaouB/EWOja3PjkYHCs=",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/beee0a2cb9362aab3dd5e4a32eb3af15955428d1.png",
+                     "partner_url": "https://disneyplus.bn5x.net/e477WD",
+                     "ping_url": "https://speeddials.opera.com/api/v1/clicks/R1pIUGpXTE1FNXRBaWRoNGZvY1B2dnpVamFvdUIvRVdPamEzUGprWUhDcz0=",
+                     "replaceability": "0",
+                     "revision": "20250317",
+                     "server_position": "8"
+                  },
+                  "name": "Disney+",
+                  "type": "url",
+                  "url": "https://www.disneyplus.com/"
+               }, {
+                  "date_added": "13371143146077196",
+                  "date_last_used": "0",
+                  "guid": "a74fbd96-acef-4f88-851b-bd790a9df68b",
+                  "id": "19",
+                  "meta_info": {
+                     "favicon_url": "https://sd-images.operacdn.com/api/v1/images/c587c225c0595ba7c1f1b79aa87cc14845b9286d.png",
+                     "imageData": "https://sd-images.operacdn.com/api/v1/images/2b1fcc7b250790b97ed2ff39ddcbce0f771457c2.png",
+                     "imageDataType": "2",
+                     "imageID": "23DDD14D55D49BD59CCE002426194D3F679CD36D3AC421B2C19305770B64831A",
+                     "imageType": "2",
+                     "impression_url": "",
+                     "nav_timestamp": "1.724790531213899e+12",
+                     "nav_timestamp_reset_version": "1",
+                     "partner_id": "YkEj2jw+sKGe46z3s3bla5o7DIA8lqC4kx3WOXvwCLU=",
+                     "partner_image_download_url": "https://sd-images.operacdn.com/api/v1/images/2b1fcc7b250790b97ed2ff39ddcbce0f771457c2.png",
+                     "partner_url": "https://track.adlinkify.com/aff_c?offer_id=17&aff_id=1010&aff_sub=sd_tr",
+                     "ping_url": "https://speeddials.opera.com/api/v1/clicks/WWtFajJqdytzS0dlNDZ6M3MzYmxhNW83RElBOGxxQzRreDNXT1h2d0NMVT0=",
+                     "replaceability": "0",
+                     "revision": "20230712",
+                     "server_position": "9"
+                  },
+                  "name": "n11",
+                  "type": "url",
+                  "url": "https://www.n11.com/"
+               } ],
+               "date_added": "13371143145936118",
+               "date_last_used": "0",
+               "date_modified": "13371143146238995",
+               "guid": "854a945d-d60b-4303-bb2c-6e46c541040c",
+               "id": "10",
+               "meta_info": {
+                  "speed_dial_root_folder_guid": "54caae85-02ec-40d4-8b44-d4557b70d9ec"
+               },
+               "name": "apple’s MacBook Air",
+               "type": "folder"
+            } ],
+            "date_added": "13371143139425575",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-a000-000000000904",
+            "id": "6",
+            "name": "Speed Dials",
+            "type": "folder"
+         },
+         "trash": {
+            "children": [  ],
+            "date_added": "13371143139425577",
+            "date_last_used": "0",
+            "date_modified": "13387067446424733",
+            "guid": "00000000-0000-4000-a000-000000000905",
+            "id": "9",
+            "name": "Çöp kutusu",
+            "type": "folder"
+         },
+         "unsorted": {
+            "children": [  ],
+            "date_added": "13371143139425572",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-a000-000000000901",
+            "id": "4",
+            "name": "Sıralanmamış Yer İmleri",
+            "type": "folder"
+         },
+         "unsyncedPinboard": {
+            "children": [  ],
+            "date_added": "13371143139425576",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-a000-000000000908",
+            "id": "8",
+            "name": "Unsynchronized Pinboard",
+            "type": "folder"
+         },
+         "userRoot": {
+            "children": [  ],
+            "date_added": "13371143139425573",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "00000000-0000-4000-a000-000000000902",
+            "id": "5",
+            "name": "Diğer Yer İmleri",
+            "type": "folder"
+         }
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13371143139425449",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "İçe Aktarılan Yer İmleri",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13371143139425449",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobil Yer İşaretleri",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

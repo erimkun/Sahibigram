@@ -1,0 +1,18 @@
+2025/01/11-00:29:41.977 8203 Creating DB /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_www.paribahis922.com_0.indexeddb.leveldb since it was missing.
+2025/01/11-00:29:41.986 8203 Reusing MANIFEST /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_www.paribahis922.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/01/11-00:29:41.996 8203 Level-0 table #5: started
+2025/01/11-00:29:42.001 8203 Level-0 table #5: 686 bytes OK
+2025/01/11-00:29:42.011 8203 Delete type=0 #3
+2025/01/11-00:29:42.011 8203 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/01/11-00:29:44.829 8503 Level-0 table #7: started
+2025/01/11-00:29:44.832 8503 Level-0 table #7: 1405 bytes OK
+2025/01/11-00:29:44.839 8503 Delete type=0 #4
+2025/01/11-00:29:44.839 8503 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/01/11-00:29:44.839 8503 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x004\x001\x002\x004\x005\x002\x008\x005\x006\x006\x002\x00:\x00w\x00e\x00b\x00:\x00f\x000\x002\x006\x009\x00f\x004\x00f\x00b\x00b\x00c\x00b\x00b\x00b\x006\x00a\x003\x001\x004\x005\x000\x00f' @ 66 : 1
+2025/01/11-00:29:44.839 8503 Compacting 1@1 + 1@2 files
+2025/01/11-00:29:44.843 8503 Generated table #8@1: 20 keys, 924 bytes
+2025/01/11-00:29:44.843 8503 Compacted 1@1 + 1@2 files => 924 bytes
+2025/01/11-00:29:44.848 8503 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/01/11-00:29:44.848 8503 Delete type=2 #7
+2025/01/11-00:29:44.848 8503 Delete type=2 #5
+2025/01/11-00:29:44.848 8503 Manual compaction at level-1 from '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x007\x004\x001\x002\x004\x005\x002\x008\x005\x006\x006\x002\x00:\x00w\x00e\x00b\x00:\x00f\x000\x002\x006\x009\x00f\x004\x00f\x00b\x00b\x00c\x00b\x00b\x00b\x006\x00a\x003\x001\x004\x005\x000\x00f' @ 66 : 1 .. (end); will stop at (end)
