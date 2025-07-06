@@ -1,0 +1,14 @@
+2025/07/04-21:03:47.652 8203 Reusing MANIFEST /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/chrome-extension_hoombieeljmmljlkjmnheibnpciblicm_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/04-21:03:47.652 8203 Recovering log #748
+2025/07/04-21:03:47.653 8203 Reusing old log /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/chrome-extension_hoombieeljmmljlkjmnheibnpciblicm_0.indexeddb.leveldb/000748.log 
+2025/07/04-21:03:47.653 8203 Delete type=2 #746
+2025/07/04-21:03:47.658 8503 Level-0 table #753: started
+2025/07/04-21:03:47.659 8503 Level-0 table #753: 972 bytes OK
+2025/07/04-21:03:47.660 8503 Delete type=0 #748
+2025/07/04-21:03:47.660 8503 Manual compaction at level-0 from '\x00\xc6\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xc7\x00\x00\x00' @ 0 : 0; will stop at '\x00\xc6\x00\x00\x05' @ 7277 : 1
+2025/07/04-21:03:47.660 8503 Compacting 1@0 + 1@1 files
+2025/07/04-21:03:47.661 8503 Generated table #754@0: 21 keys, 1695 bytes
+2025/07/04-21:03:47.661 8503 Compacted 1@0 + 1@1 files => 1695 bytes
+2025/07/04-21:03:47.662 8503 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/04-21:03:47.662 8503 Delete type=2 #753
+2025/07/04-21:03:47.662 8503 Manual compaction at level-0 from '\x00\xc6\x00\x00\x05' @ 7277 : 1 .. '\x00\xc7\x00\x00\x00' @ 0 : 0; will stop at (end)

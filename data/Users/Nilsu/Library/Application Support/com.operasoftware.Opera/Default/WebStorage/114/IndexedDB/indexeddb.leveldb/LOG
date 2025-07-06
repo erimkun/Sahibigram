@@ -1,0 +1,6 @@
+2025/04/11-18:45:09.312 8303 Creating DB /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/WebStorage/114/IndexedDB/indexeddb.leveldb since it was missing.
+2025/04/11-18:45:09.321 8303 Reusing MANIFEST /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/WebStorage/114/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/04/11-18:55:12.436 a603 Level-0 table #5: started
+2025/04/11-18:55:12.441 a603 Level-0 table #5: 7795 bytes OK
+2025/04/11-18:55:12.446 a603 Delete type=0 #3
+2025/04/11-18:55:12.446 a603 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

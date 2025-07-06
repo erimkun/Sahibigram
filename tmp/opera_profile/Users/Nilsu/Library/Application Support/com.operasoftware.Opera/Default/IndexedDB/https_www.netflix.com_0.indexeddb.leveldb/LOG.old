@@ -1,0 +1,6 @@
+2025/04/04-15:40:07.867 8303 Reusing MANIFEST /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/04-15:40:07.868 8303 Recovering log #214
+2025/04/04-15:40:07.868 8303 Reusing old log /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000214.log 
+2025/04/04-15:44:18.722 8903 Level-0 table #220: started
+2025/04/04-15:44:18.734 8903 Level-0 table #220: 2519803 bytes OK
+2025/04/04-15:44:18.740 8903 Delete type=0 #214

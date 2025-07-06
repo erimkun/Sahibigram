@@ -1,0 +1,23 @@
+2025/04/17-02:26:13.011 f603 Reusing MANIFEST /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_www.languagereactor.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/17-02:26:13.011 f603 Recovering log #17
+2025/04/17-02:26:13.012 f603 Reusing old log /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_www.languagereactor.com_0.indexeddb.leveldb/000017.log 
+2025/04/17-02:26:13.035 b003 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/17-10:45:26.373 8403 Level-0 table #21: started
+2025/04/17-10:45:26.378 8403 Level-0 table #21: 1579 bytes OK
+2025/04/17-10:45:26.384 8403 Delete type=0 #17
+2025/04/17-10:45:26.385 8403 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x07\x00\x00\x05' @ 258 : 1
+2025/04/17-10:45:26.385 8403 Compacting 1@0 + 1@1 files
+2025/04/17-10:45:26.387 8403 Generated table #22@0: 23 keys, 1049 bytes
+2025/04/17-10:45:26.387 8403 Compacted 1@0 + 1@1 files => 1049 bytes
+2025/04/17-10:45:26.392 8403 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/17-10:45:26.392 8403 Delete type=2 #21
+2025/04/17-10:45:26.392 8403 Delete type=2 #18
+2025/04/17-10:45:26.393 8403 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 258 : 1 .. (end); will stop at (end)
+2025/04/17-10:45:26.393 8403 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x007\x007\x000\x008\x001\x002\x008\x005\x002\x002\x001\x00:\x00w\x00e\x00b\x00:\x009\x000\x000\x00c\x00d\x000\x00c\x00a\x00c\x00d\x00f\x00e\x00c\x008\x004\x009\x003\x000\x00a\x004\x008\x00c' @ 242 : 1
+2025/04/17-10:45:26.393 8403 Compacting 1@1 + 1@2 files
+2025/04/17-10:45:26.395 8403 Generated table #23@1: 34 keys, 1149 bytes
+2025/04/17-10:45:26.395 8403 Compacted 1@1 + 1@2 files => 1149 bytes
+2025/04/17-10:45:26.400 8403 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/17-10:45:26.400 8403 Delete type=2 #15
+2025/04/17-10:45:26.400 8403 Delete type=2 #22
+2025/04/17-10:45:26.401 8403 Manual compaction at level-1 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x007\x007\x000\x008\x001\x002\x008\x005\x002\x002\x001\x00:\x00w\x00e\x00b\x00:\x009\x000\x000\x00c\x00d\x000\x00c\x00a\x00c\x00d\x00f\x00e\x00c\x008\x004\x009\x003\x000\x00a\x004\x008\x00c' @ 242 : 1 .. (end); will stop at (end)

@@ -1,0 +1,186 @@
+2025-07-04 19:57:42,786 - __main__ - INFO - Initializing scraper...
+2025-07-04 19:57:42,947 - SahibindenScraper - ERROR - Failed to start browser: BrowserType.launch: Executable doesn't exist at /Users/Nilsu/Library/Caches/ms-playwright/chromium_headless_shell-1179/chrome-mac/headless_shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-07-04 19:57:42,947 - __main__ - ERROR - Error during scraping: BrowserType.launch: Executable doesn't exist at /Users/Nilsu/Library/Caches/ms-playwright/chromium_headless_shell-1179/chrome-mac/headless_shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-07-04 19:58:29,209 - __main__ - INFO - Initializing scraper...
+2025-07-04 19:58:31,387 - SahibindenScraper - INFO - Browser started successfully
+2025-07-04 19:58:31,387 - __main__ - INFO - Starting scraping process...
+2025-07-04 19:58:31,387 - SahibindenScraper - INFO - Scraping page 1/5
+2025-07-04 19:59:31,886 - SahibindenScraper - ERROR - Error extracting listings from page: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator(".classified") to be visible
+
+2025-07-04 19:59:36,234 - SahibindenScraper - INFO - No more listings found at page 1
+2025-07-04 19:59:36,234 - SahibindenScraper - INFO - Scraping completed. Total listings: 0
+2025-07-04 19:59:36,234 - __main__ - INFO - Scraped 0 listings
+2025-07-04 19:59:36,234 - __main__ - INFO - Processing scraped data...
+2025-07-04 19:59:36,234 - __main__ - INFO - Processed 0 unique listings
+2025-07-04 19:59:36,235 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_195936.json (json)
+2025-07-04 19:59:36,240 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_195936.csv (csv)
+2025-07-04 19:59:36,270 - SahibindenScraper - INFO - Browser stopped successfully
+2025-07-04 20:01:50,875 - __main__ - INFO - Initializing scraper...
+2025-07-04 20:01:51,679 - SahibindenScraper - INFO - Browser started successfully
+2025-07-04 20:01:51,679 - __main__ - INFO - Starting scraping process...
+2025-07-04 20:01:51,679 - SahibindenScraper - INFO - Scraping page 1/5
+2025-07-04 20:02:52,333 - SahibindenScraper - ERROR - Error extracting listings from page: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator(".classified") to be visible
+
+2025-07-04 20:02:57,141 - SahibindenScraper - INFO - No more listings found at page 1
+2025-07-04 20:02:57,142 - SahibindenScraper - INFO - Scraping completed. Total listings: 0
+2025-07-04 20:02:57,142 - __main__ - INFO - Scraped 0 listings
+2025-07-04 20:02:57,142 - __main__ - INFO - Processing scraped data...
+2025-07-04 20:02:57,142 - __main__ - INFO - Processed 0 unique listings
+2025-07-04 20:02:57,143 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_200257.json (json)
+2025-07-04 20:02:57,148 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_200257.csv (csv)
+2025-07-04 20:02:57,268 - SahibindenScraper - INFO - Browser stopped successfully
+2025-07-04 20:11:26,319 - __main__ - INFO - Initializing scraper...
+2025-07-04 20:11:26,920 - SahibindenScraper - INFO - Browser started successfully
+2025-07-04 20:11:26,920 - __main__ - INFO - Starting scraping process...
+2025-07-04 20:11:26,920 - SahibindenScraper - INFO - Scraping page 1/5
+2025-07-04 20:12:27,451 - SahibindenScraper - ERROR - Error extracting listings from page: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator(".classified") to be visible
+
+2025-07-04 20:12:33,259 - SahibindenScraper - INFO - No more listings found at page 1
+2025-07-04 20:12:33,259 - SahibindenScraper - INFO - Scraping completed. Total listings: 0
+2025-07-04 20:12:33,259 - __main__ - INFO - Scraped 0 listings
+2025-07-04 20:12:33,259 - __main__ - INFO - Processing scraped data...
+2025-07-04 20:12:33,259 - __main__ - INFO - Processed 0 unique listings
+2025-07-04 20:12:33,260 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_201233.json (json)
+2025-07-04 20:12:33,263 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_201233.csv (csv)
+2025-07-04 20:12:33,297 - SahibindenScraper - INFO - Browser stopped successfully
+2025-07-04 20:17:46,367 - __main__ - INFO - Initializing scraper...
+2025-07-04 20:17:46,738 - SahibindenScraper - INFO - Browser started successfully
+2025-07-04 20:17:46,738 - __main__ - INFO - Starting scraping process...
+2025-07-04 20:17:46,738 - SahibindenScraper - INFO - Scraping page 1/5
+2025-07-04 20:18:47,242 - SahibindenScraper - ERROR - Error extracting listings from page: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("tr.searchResultsItem") to be visible
+
+2025-07-04 20:18:51,946 - SahibindenScraper - INFO - No more listings found at page 1
+2025-07-04 20:18:51,947 - SahibindenScraper - INFO - Scraping completed. Total listings: 0
+2025-07-04 20:18:51,947 - __main__ - INFO - Scraped 0 listings
+2025-07-04 20:18:51,947 - __main__ - INFO - Processing scraped data...
+2025-07-04 20:18:51,947 - __main__ - INFO - Processed 0 unique listings
+2025-07-04 20:18:51,949 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_201851.json (json)
+2025-07-04 20:18:51,958 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_201851.csv (csv)
+2025-07-04 20:18:52,001 - SahibindenScraper - INFO - Browser stopped successfully
+2025-07-04 21:14:05,482 - __main__ - INFO - Initializing scraper...
+2025-07-04 21:14:06,241 - SahibindenScraper - INFO - Browser started successfully
+2025-07-04 21:14:06,241 - __main__ - INFO - Starting scraping process...
+2025-07-04 21:14:06,241 - SahibindenScraper - INFO - Scraping page 1/5
+2025-07-04 21:15:06,751 - SahibindenScraper - ERROR - Error extracting listings from page: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("tr.searchResultsItem") to be visible
+    - waiting for" https://www.sahibinden.com/kiralik-daire?page=1" navigation to finish...
+    - navigated to "https://www.sahibinden.com/kiralik-daire?page=1"
+
+2025-07-04 21:15:11,969 - SahibindenScraper - INFO - No more listings found at page 1
+2025-07-04 21:15:11,970 - SahibindenScraper - INFO - Scraping completed. Total listings: 0
+2025-07-04 21:15:11,970 - __main__ - INFO - Scraped 0 listings
+2025-07-04 21:15:11,970 - __main__ - INFO - Processing scraped data...
+2025-07-04 21:15:11,971 - __main__ - INFO - Processed 0 unique listings
+2025-07-04 21:15:11,973 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_211511.json (json)
+2025-07-04 21:15:11,978 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_211511.csv (csv)
+2025-07-04 21:15:12,024 - SahibindenScraper - INFO - Browser stopped successfully
+2025-07-04 21:21:59,137 - __main__ - INFO - Initializing scraper...
+2025-07-04 21:21:59,975 - SahibindenScraper - INFO - Browser started successfully
+2025-07-04 21:21:59,975 - __main__ - INFO - Starting scraping process...
+2025-07-04 21:21:59,975 - SahibindenScraper - INFO - Scraping page 1/5
+2025-07-04 21:23:00,471 - SahibindenScraper - ERROR - Error extracting listings from page: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("tr.searchResultsItem") to be visible
+    - waiting for" https://www.sahibinden.com/kiralik-daire?page=1" navigation to finish...
+    - navigated to "https://www.sahibinden.com/kiralik-daire?page=1"
+
+2025-07-04 21:23:05,218 - SahibindenScraper - INFO - No more listings found at page 1
+2025-07-04 21:23:05,218 - SahibindenScraper - INFO - Scraping completed. Total listings: 0
+2025-07-04 21:23:05,219 - __main__ - INFO - Scraped 0 listings
+2025-07-04 21:23:05,219 - __main__ - INFO - Processing scraped data...
+2025-07-04 21:23:05,219 - __main__ - INFO - Processed 0 unique listings
+2025-07-04 21:23:05,221 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_212305.json (json)
+2025-07-04 21:23:05,228 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_212305.csv (csv)
+2025-07-04 21:23:05,269 - SahibindenScraper - INFO - Browser stopped successfully
+2025-07-04 21:26:29,284 - __main__ - INFO - Initializing scraper...
+2025-07-04 21:26:30,078 - SahibindenScraper - INFO - Browser started successfully
+2025-07-04 21:26:30,078 - __main__ - INFO - Starting scraping process...
+2025-07-04 21:26:30,078 - SahibindenScraper - INFO - Scraping page 1/5
+2025-07-04 21:27:30,590 - SahibindenScraper - ERROR - Error extracting listings from page: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("tr.searchResultsItem") to be visible
+
+2025-07-04 21:27:36,260 - SahibindenScraper - INFO - No more listings found at page 1
+2025-07-04 21:27:36,260 - SahibindenScraper - INFO - Scraping completed. Total listings: 0
+2025-07-04 21:27:36,261 - __main__ - INFO - Scraped 0 listings
+2025-07-04 21:27:36,261 - __main__ - INFO - Processing scraped data...
+2025-07-04 21:27:36,261 - __main__ - INFO - Processed 0 unique listings
+2025-07-04 21:27:36,263 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_212736.json (json)
+2025-07-04 21:27:36,269 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_212736.csv (csv)
+2025-07-04 21:27:36,312 - SahibindenScraper - INFO - Browser stopped successfully
+2025-07-04 21:31:13,426 - __main__ - INFO - Initializing scraper...
+2025-07-04 21:31:14,209 - SahibindenScraper - INFO - Browser started successfully
+2025-07-04 21:31:14,209 - __main__ - INFO - Starting scraping process...
+2025-07-04 21:31:14,209 - SahibindenScraper - INFO - Scraping page 1/5
+2025-07-04 21:32:14,740 - SahibindenScraper - ERROR - Error extracting listings from page: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("tr.searchResultsItem") to be visible
+    - waiting for" https://www.sahibinden.com/kiralik-daire?page=1" navigation to finish...
+    - navigated to "https://www.sahibinden.com/kiralik-daire?page=1"
+
+2025-07-04 21:32:19,560 - SahibindenScraper - INFO - No more listings found at page 1
+2025-07-04 21:32:19,560 - SahibindenScraper - INFO - Scraping completed. Total listings: 0
+2025-07-04 21:32:19,560 - __main__ - INFO - Scraped 0 listings
+2025-07-04 21:32:19,560 - __main__ - INFO - Processing scraped data...
+2025-07-04 21:32:19,560 - __main__ - INFO - Processed 0 unique listings
+2025-07-04 21:32:19,563 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_213219.json (json)
+2025-07-04 21:32:19,569 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_213219.csv (csv)
+2025-07-04 21:32:19,616 - SahibindenScraper - INFO - Browser stopped successfully
+2025-07-04 21:35:45,260 - __main__ - INFO - Initializing scraper...
+2025-07-04 21:35:46,081 - SahibindenScraper - INFO - Browser started successfully
+2025-07-04 21:35:46,081 - __main__ - INFO - Starting scraping process...
+2025-07-04 21:35:46,081 - SahibindenScraper - INFO - Scraping page 1/5
+2025-07-04 21:36:46,638 - SahibindenScraper - ERROR - Error extracting listings from page: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("tr.searchResultsItem") to be visible
+
+2025-07-04 21:36:52,232 - SahibindenScraper - INFO - No more listings found at page 1
+2025-07-04 21:36:52,232 - SahibindenScraper - INFO - Scraping completed. Total listings: 0
+2025-07-04 21:36:52,233 - __main__ - INFO - Scraped 0 listings
+2025-07-04 21:36:52,233 - __main__ - INFO - Processing scraped data...
+2025-07-04 21:36:52,233 - __main__ - INFO - Processed 0 unique listings
+2025-07-04 21:36:52,235 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_213652.json (json)
+2025-07-04 21:36:52,240 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_213652.csv (csv)
+2025-07-04 21:36:52,278 - SahibindenScraper - INFO - Browser stopped successfully
+2025-07-04 21:47:44,299 - __main__ - INFO - Initializing scraper...
+2025-07-04 21:47:44,696 - SahibindenScraper - ERROR - Failed to start browser: 'SahibindenScraper' object has no attribute 'config'
+2025-07-04 21:47:44,697 - __main__ - ERROR - Error during scraping: 'SahibindenScraper' object has no attribute 'config'
+2025-07-04 21:48:14,096 - __main__ - INFO - Initializing scraper...
+2025-07-04 21:48:14,989 - SahibindenScraper - INFO - Browser started successfully
+2025-07-04 21:48:14,989 - __main__ - INFO - Starting scraping process...
+2025-07-04 21:48:14,989 - SahibindenScraper - INFO - Scraping page 1/5
+2025-07-04 21:49:14,995 - SahibindenScraper - ERROR - Error during scraping: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.sahibinden.com/kiralik-daire?page=1", waiting until "load"
+
+2025-07-04 21:49:14,995 - __main__ - INFO - Scraped 0 listings
+2025-07-04 21:49:14,995 - __main__ - INFO - Processing scraped data...
+2025-07-04 21:49:14,995 - __main__ - INFO - Processed 0 unique listings
+2025-07-04 21:49:14,996 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_214914.json (json)
+2025-07-04 21:49:15,001 - SahibindenScraper - INFO - Data exported to exports/sahibinden_listings_20250704_214914.csv (csv)
+2025-07-04 21:49:15,037 - SahibindenScraper - INFO - Browser stopped successfully

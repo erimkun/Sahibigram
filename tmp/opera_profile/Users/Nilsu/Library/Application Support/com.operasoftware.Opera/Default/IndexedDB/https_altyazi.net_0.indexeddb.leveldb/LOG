@@ -1,0 +1,6 @@
+2025/04/14-23:36:36.404 a603 Creating DB /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_altyazi.net_0.indexeddb.leveldb since it was missing.
+2025/04/14-23:36:36.410 a603 Reusing MANIFEST /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_altyazi.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/15-00:51:49.665 8503 Level-0 table #5: started
+2025/04/15-00:51:49.669 8503 Level-0 table #5: 12317 bytes OK
+2025/04/15-00:51:49.675 8503 Delete type=0 #3
+2025/04/15-00:51:49.676 8503 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

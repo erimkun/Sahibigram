@@ -1,0 +1,6 @@
+2024/12/19-21:48:46.975 a403 Creating DB /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb since it was missing.
+2024/12/19-21:48:46.984 a403 Reusing MANIFEST /Users/Nilsu/Library/Application Support/com.operasoftware.Opera/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/19-22:47:34.760 a303 Level-0 table #5: started
+2024/12/19-22:47:34.764 a303 Level-0 table #5: 5971 bytes OK
+2024/12/19-22:47:34.770 a303 Delete type=0 #3
+2024/12/19-22:47:34.771 a303 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

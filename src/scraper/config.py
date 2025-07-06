@@ -28,19 +28,22 @@ class ScraperConfig:
     MAX_DELAY = 6.0  # Maximum delay between requests (seconds)
     PAGE_TIMEOUT = 60000  # Page load timeout (milliseconds)
     
+    # Optional proxy (e.g. http://user:pass@proxy.example.com:8000)
+    PROXY_SERVER: str | None = None
+    
     # Scraping limits
     DEFAULT_MAX_PAGES = 5
     MAX_RETRIES = 3
     
     # CSS Selectors (PROVEN WORKING)
     SELECTORS = {
-        'listing_container': '.classified',
+        'listing_container': 'tr.searchResultsItem',
         'title': '.classifiedTitle',
-        'price': '.price',
+        'price': '.searchResultsPriceValue',
         'location': '.searchResultsLocationValue',
         'date': '.searchResultsDateValue',
         'url': 'a.classifiedTitle',
-        'image': '.lazyload'
+        'image': 'img.lazyload'
     }
     
     # Export settings
@@ -98,6 +101,9 @@ class ScraperConfig:
         
         # Logging
         self.LOG_LEVEL = os.getenv('SAHIBI_LOG_LEVEL', self.LOG_LEVEL)
+        
+        # Proxy
+        self.PROXY_SERVER = os.getenv('SAHIBI_PROXY', self.PROXY_SERVER)
     
     def get_browser_args(self) -> list:
         """Get browser launch arguments"""
@@ -140,6 +146,12 @@ class ScraperConfig:
             'bypass_csp': True,
             'ignore_https_errors': True
         }
+    
+    def get_proxy(self) -> Dict[str, str] | None:
+        """Return Playwright proxy dict if proxy is configured."""
+        if self.PROXY_SERVER:
+            return {"server": self.PROXY_SERVER}
+        return None
     
     def to_dict(self) -> Dict[str, Any]:
         """Convert configuration to dictionary"""

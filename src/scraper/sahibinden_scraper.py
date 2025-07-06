@@ -8,8 +8,12 @@ import random
 import json
 import logging
 from typing import List, Dict, Optional, Any
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright  # type: ignore
 from urllib.parse import urljoin
+from .config import ScraperConfig
+from pathlib import Path
+from playwright_stealth import Stealth  # type: ignore
+import os
 
 
 class SahibindenScraper:
@@ -27,6 +31,7 @@ class SahibindenScraper:
         self.MIN_DELAY = 3
         self.MAX_DELAY = 6
         self.PAGE_TIMEOUT = 60000
+        self.HEADLESS = True
         
         # Setup logging
         self.logger = logging.getLogger('SahibindenScraper')
@@ -50,12 +55,22 @@ class SahibindenScraper:
         """Start Playwright browser with anti-detection configuration"""
         try:
             self.playwright = sync_playwright().start()
-            self.browser = self.playwright.chromium.launch(headless=True)
-            self.context = self.browser.new_context(
-                user_agent=self.USER_AGENT,
-                locale=self.LOCALE,
-                viewport=self.VIEWPORT
-            )
+            launch_kwargs = {"headless": self.HEADLESS}
+            proxy_server = os.getenv("SAHIBI_PROXY")
+            if proxy_server:
+                launch_kwargs["proxy"] = {"server": proxy_server}  # type: ignore[arg-type]
+
+            self.browser = self.playwright.chromium.launch(**launch_kwargs)
+            cookie_file = Path("cf_cookies.json")
+            storage_state = str(cookie_file) if cookie_file.exists() else None
+            self.context = self.browser.new_context(storage_state=storage_state,  # type: ignore[arg-type]
+                                                   user_agent=self.USER_AGENT,
+                                                   locale=self.LOCALE,
+                                                   viewport=self.VIEWPORT,  # type: ignore[arg-type]
+                                                   )
+            # Apply stealth evasions once per browser context using playwright-stealth ≥2.0
+            Stealth().apply_stealth_sync(self.context)
+
             self.page = self.context.new_page()
             self.logger.info("Browser started successfully")
         except Exception as e:
@@ -86,21 +101,21 @@ class SahibindenScraper:
         """Extract listings from current page using proven selectors"""
         try:
             # Wait for listings to load
-            page.wait_for_selector(".classified", timeout=self.PAGE_TIMEOUT)
+            page.wait_for_selector(ScraperConfig.SELECTORS['listing_container'], timeout=self.PAGE_TIMEOUT)
             
             # Get all listing elements
-            listings = page.query_selector_all(".classified")
+            listings = page.query_selector_all(ScraperConfig.SELECTORS['listing_container'])
             results = []
             
             for listing in listings:
                 try:
                     # Extract data using proven selectors from AdditionalReport.md
-                    title_element = listing.query_selector(".classifiedTitle")
-                    price_element = listing.query_selector(".price")
-                    location_element = listing.query_selector(".searchResultsLocationValue")
-                    date_element = listing.query_selector(".searchResultsDateValue")
-                    url_element = listing.query_selector("a.classifiedTitle")
-                    image_element = listing.query_selector(".lazyload")
+                    title_element = listing.query_selector(ScraperConfig.SELECTORS['title'])
+                    price_element = listing.query_selector(ScraperConfig.SELECTORS['price'])
+                    location_element = listing.query_selector(ScraperConfig.SELECTORS['location'])
+                    date_element = listing.query_selector(ScraperConfig.SELECTORS['date'])
+                    url_element = listing.query_selector(ScraperConfig.SELECTORS['url'])
+                    image_element = listing.query_selector(ScraperConfig.SELECTORS['image'])
                     
                     # Extract text content
                     title = title_element.inner_text().strip() if title_element else None
@@ -160,6 +175,7 @@ class SahibindenScraper:
                 url = f"{base_url}?page={page_num}"
                 
                 # Navigate to page
+                assert self.page is not None, "Browser page not initialized."
                 self.page.goto(url, timeout=self.PAGE_TIMEOUT)
                 
                 # Extract listings
